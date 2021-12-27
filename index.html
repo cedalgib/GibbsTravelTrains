@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+    <title>Gibbs Travel Trains</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link href="main.css" rel="stylesheet">  
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	
+    <!-- JavaScript HTML requirements -->
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	
+	
+	<style>
+		.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{
+			background-color:#EADDCA;
+		}
+		div.bx-wrapper, .bx-viewport, .bx-wrapper img {height: 289px !important; width: 450px !important;} 
+	</style>
+	
+</head>
+
+<body>
+	<!-- HOME -->
+	<div data-role="page" id="home">
+    	<header data-role="header">
+        	<h1>Gibbs Travel Trains</h1>
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" data-theme="b" class="ui-btn-active" data-transition="slide">Home</a></li>
+					<li><a href="#gallery" data-icon="grid" data-theme="b" data-transition="slide">Gallery</a></li>
+					<li><a href="#trips" data-icon="star" data-theme="b" data-transition="slide">Trips</a></li>
+            		<li><a href="#contactus" data-icon="grid" data-theme="b" data-transition="slide">Contact Us</a></li>
+            		            		
+				</ul>
+			</div>
+    	</header>
+    
+    	<section class="ui-content" role="main">
+			<h2>Welcome to Gibbs Travel Trains</h2>
+				<p>Greetings! Welcome to Gibbs Travel Trains.
+				We currently provide service to several locations
+				in the Southeast. We are looking to expand service
+				in the future. Take a look at our current packages
+				and let us know which destinations you would like to 
+				have added. We appreciate your feedback!</p>
+			
+		</section>
+    
+    	<footer data-role="footer" class="ui-bar">
+    		<h4>&copy; 2021</h4>
+    	</footer>
+	</div>
+	
+	<!-- GALLERY -->
+	<div data-role="page" id="gallery">
+    	<header data-role="header">
+        	<h1>Gibbs Travel Trains</h1>
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" data-theme="b"  data-transition="slide">Home</a></li>
+					<li><a href="#gallery" data-icon="grid" data-theme="b" class="ui-btn-active" data-transition="slide">Gallery</a></li>
+					<li><a href="#trips" data-icon="star" data-theme="b" data-transition="slide">Trips</a></li>
+            		<li><a href="#contactus" data-icon="grid" data-theme="b" data-transition="slide">Contact Us</a></li>
+            		            		
+				</ul>
+			</div>
+    	</header>
+    
+    	<section class="ui-content" role="main">
+			<h2>Gallery</h2>
+			<ul class="slider">
+				<li><img src="images/amtrak_44.jpg" alt="" title="amtrak_44"></li>
+				<li><img src="images/amtrak_158.jpg" alt="" title="amtrak_158"></li>
+				<li><img src="images/amtrak_172.jpg" alt="" title="amtrak_172"></li>
+				<li><img src="images/amtrak_942.jpg" alt="" title="amtrak_942"></li>
+				<li><img src="images/amtrak_207.jpg" alt="" title="amtrak_207"></li>
+				<li><img src="images/amtrak_203.jpg" alt="" title="amtrak_203"></li>
+			</ul>
+	    </section>
+    
+    	<footer data-role="footer" class="ui-bar">
+    		<h4>&copy; 2021</h4>
+    	</footer>
+	</div>
+
+	<!-- TRIPS -->
+	<div data-role="page" id="trips">
+    	<header data-role="header">
+        	<h1>Gibbs Travel Trains</h1>
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" data-theme="b" data-transition="slide">Home</a></li>
+					<li><a href="#gallery" data-icon="grid" data-theme="b" data-transition="slide">Gallery</a></li>
+					<li><a href="#trips" data-icon="star" class="ui-btn-active" data-theme="b" data-transition="slide">Trips</a></li>
+            		<li><a href="#contactus" data-icon="grid" data-theme="b" data-transition="slide">Contact Us</a></li>
+            		
+				</ul>
+			</div>
+    	</header>
+    
+    	<section class="ui-content" role="main">
+        	<div data-role="collapsible">
+				<h2>South Beach Package</h2>
+					<table>
+					  <tr>
+						<th>Columbia to Miami</th>
+					  </tr>
+					  <tr>
+						<td>Stops</td>
+						<td>7</td>
+					  </tr>
+					  <tr>
+						<td>Hours</td>
+						<td>10h 75m</td>
+					  </tr>
+					  <tr>
+						<td>First Class</td>
+						<td>$250</td>
+					  </tr>
+					  <tr>
+						<td>Business Class</td>
+						<td>$100</td>
+					  </tr>
+					</table>
+            </div>
+        	<div data-role="collapsible">
+            	<h2>Music City Package</h2>
+            		<table>
+					  <tr>
+						<th>Columbia to Nashville</th>
+					  </tr>
+					  <tr>
+						<td>Stops</td>
+						<td>4</td>
+					  </tr>
+					  <tr>
+						<td>Hours</td>
+						<td>7h 15m</td>
+					  </tr>
+					  <tr>
+						<td>First Class</td>
+						<td>$125</td>
+					  </tr>
+					  <tr>
+						<td>Business Class</td>
+						<td>$80</td>
+					  </tr>
+					</table>
+			</div>
+        	<div data-role="collapsible">	
+            	<h2>Capital Package</h2>
+            		<table>
+					  <tr>
+						<th>Columbia to Washington, D.C.</th>
+					  </tr>
+					  <tr>
+						<td>Stops</td>
+						<td>6</td>
+					  </tr>
+					  <tr>
+						<td>Hours</td>
+						<td>8</td>
+					  </tr>
+					  <tr>
+						<td>First Class</td>
+						<td>$300</td>
+					  </tr>
+					  <tr>
+						<td>Business Class</td>
+						<td>$150</td>
+					  </tr>
+					</table>
+            </div>
+        </section>
+    
+    	<footer data-role="footer">
+    		<h4>&copy; 2021</h4>
+    	</footer>
+	</div>
+
+
+	<!-- CONTACT US -->
+	<div data-role="page" id="contactus">
+    	<header data-role="header">
+        	<h1>Gibbs Travel Trains</h1>
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" data-theme="b" data-transition="slide">Home</a></li>
+					<li><a href="#gallery" data-icon="grid" data-theme="b" data-transition="slide">Gallery</a></li>
+					<li><a href="#trips" data-icon="star" data-theme="b" data-transition="slide">Trips</a></li>
+            		<li><a href="#contactus" data-icon="grid" class="ui-btn-active" data-theme="b" data-transition="slide">Contact Us</a></li>
+            		            		
+				</ul>
+			</div>
+    	</header>
+    
+    	<section class="ui-content" role="main">
+        	<h3>Contact Us</h3>
+    		<form action="submit.html" method="post" data-ajax="false">
+            	<label for="name">Name:</label>
+            	<input type="text" name="name" id="name">
+            	<label for="phone">Phone:</label>
+            	<input type="tel" name="phone" id="phone">
+            	<label for="email">Email:</label>
+            	<input type="email" name="email" id="email">
+            
+            	
+            
+            	<fieldset data-role="controlgroup">
+                	<legend>Which travel package are you interested in?</legend>
+                	<label><input type="radio" name="south_beach" id="south_beach">South Beach</label>
+                	<label><input type="radio" name="music_city" id="music_city">Music City</label>
+					<label><input type="radio" name="capital" id="capital">Capital</label>
+            	</fieldset>
+            
+            	
+            	<label for="hearaboutus" class="select">How did you hear about us?</label>
+            	<select name="hearaboutus" id="hearaboutus">
+					<option value="online">Online</option>
+               		<option value="magazine">Magazine Ad</option>
+               		<option value="radio">Radio Ad</option>
+               		<option value="tv">TV Ad</option>
+               		<option value="word">Word of Mouth</option>
+            	</select>
+            
+            	<label for="questions">Questions/Comments:</label>
+            	<textarea name="questions" id="questions"></textarea>
+            	<br>
+            	<input type="submit" value="Submit Form">
+        	</form>
+    	</section>
+    
+    	<footer data-role="footer" class="ui-bar">
+    		<h4>&copy; 2021</h4>
+    	</footer>
+	</div>
+	
+	<script>
+		$(window).on('load', function() {
+			$('.slider').bxSlider({
+				//mode: "fade",
+				minSlides: 1,
+				maxSlides: 6,
+				
+			});
+			
+		})
+	</script>
+</body>
+</html>
